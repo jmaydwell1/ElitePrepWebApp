@@ -4,7 +4,7 @@ import Navbar from './navbar/Navbar';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-neutral-950 to-neutral-800">
+    <div className="min-h-screen bg-gradient-to-b from-neutral-950 to-neutral-700">
       <Navbar />
     </div>
   );
