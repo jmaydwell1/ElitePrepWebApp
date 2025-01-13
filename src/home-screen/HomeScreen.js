@@ -51,11 +51,13 @@ const HomeScreen = () => {
                 </div>
             </div>
 
-            
-            {/* Image Div Container */}
-            <div className="w-full">
-                <img src={image4} alt="" className="hover:scale-105 duration-200 w-full h-auto"/>
+            <div className="flex flex-col p-6 m-2 space-y-10 md:flex-row md:space-y-0 md:space-x-20 md:m-4 md:p-6">
+                {/* Image Div Container */}
+                <div className="w-full">
+                    <img src={image4} alt="" className="hover:scale-105 rounded-3xl duration-200 w-full h-auto"/>
+                </div>
             </div>
+            
             
             
         </div>
