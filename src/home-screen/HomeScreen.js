@@ -9,26 +9,25 @@ import {ReactComponent as Image7} from '../Mask group-4.svg';
 const HomeScreen = () => {
     return (
         // Global Container
-        <div className="flex flex-col items-center justify-center min-h-screen space-y-10">
+        <div className="flex flex-col items-center justify-center min-h-screen space-y-0">
 
             {/* Card Container */}
-            <div className="flex flex-col p-16 m-2 space-y-10 md:flex-row
-                            md:space-y-0 md:space-x-20 md:m-4 md:p-12"
+            <div className="w-full h-full flex flex-col p-16 bg-gradient-to-b from-neutral-950 to-neutral-800 space-y-10 md:flex-row
+                            md:space-y-0 md:space-x-20 md:p-12"
             >
                  {/* Text and Image Container */}
                  <div className="w-full text-center">
                     <h2 className="text-7xl font-sans mb-4 bg-gradient-to-r from-gray-200 to-gray-600 bg-clip-text text-transparent hover:scale-105 duration-200">Using AI to Empower Champions</h2>
-                    {/* <img src={image1} alt="" className="w-full mx-auto overflow-hidden hover:opacity-75"/> */}
                 </div>
 
                 {/* Image Div Container */}
-                <div className="w-full">
+                <div className="w-auto">
                     <img src={image2} alt="" className="hover:scale-105 duration-200 w-full h-auto"/>
                 </div>
             </div>
 
             {/* New Row Container 2 */}
-            <div className="flex flex-col p-16 space-y-10 bg-[#f0f0f0] md:flex-row md:space-y-0 md:space-x-20 md:p-12">
+            <div className="w-full flex flex-col p-16 space-y-10 bg-[#f0f0f0] md:flex-row md:space-y-0 md:space-x-10 md:p-12">
                 
                 {/* New Text and Image Container */}
                 <div className="w-full text-center">
@@ -54,15 +53,15 @@ const HomeScreen = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col p-6 m-2 space-y-10 md:flex-row md:space-y-0 md:space-x-20 md:m-4 md:p-6">
-                {/* Image Div Container */}
-                <div className="w-full">
-                    <img src={image4} alt="" className="hover:scale-105 rounded-3xl duration-200 w-full h-auto"/>
-                </div>
+            <div className="w-full">
+                 {/* Image Div Container */}
+                <img src={image4} alt="" className="w-full h-full"/>
             </div>
+           
+        
 
             {/* New Row Container 3 */}
-            <div className="flex flex-col p-16 space-y-10 bg-[#d3dee2] md:flex-row md:space-y-0 md:space-x-20 md:p-12">
+            <div className="w-full flex flex-col p-16 space-y-10 bg-[#d3dee2] md:flex-row md:space-y-0 md:space-x-20 md:p-12">
                 
                 {/* New Text and Image Container */}
                 <div className="w-full text-center mb-20">
