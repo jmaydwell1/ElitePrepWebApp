@@ -17,7 +17,7 @@ const HomeScreen = () => {
             >
                  {/* Text and Image Container */}
                  <div className="w-full text-center">
-                    <h2 className="text-7xl font-sans mb-4 text-gray-400 hover:scale-105 duration-200">Using AI to Empower Champions</h2>
+                    <h2 className="text-7xl font-sans mb-4 bg-gradient-to-r from-gray-200 to-gray-600 bg-clip-text text-transparent hover:scale-105 duration-200">Using AI to Empower Champions</h2>
                     {/* <img src={image1} alt="" className="w-full mx-auto overflow-hidden hover:opacity-75"/> */}
                 </div>
 
@@ -28,11 +28,11 @@ const HomeScreen = () => {
             </div>
 
             {/* New Row Container 2 */}
-            <div className="flex flex-col p-16 m-2 space-y-10 md:flex-row md:space-y-0 md:space-x-20 md:m-4 md:p-12">
+            <div className="flex flex-col p-16 space-y-10 bg-[#f0f0f0] md:flex-row md:space-y-0 md:space-x-20 md:p-12">
                 
                 {/* New Text and Image Container */}
                 <div className="w-full text-center">
-                    <h2 className="text-7xl font-sans mb-4 text-gray-400 hover:scale-105 duration-200">The Tough Realities Behind Athletic Glory</h2>
+                    <h2 className="text-7xl font-sans mb-4 bg-gradient-to-r from-slate-400 to-slate-800 bg-clip-text text-transparent hover:scale-105 duration-200">The Tough Realities Behind Athletic Glory</h2>
                     <div className="flex flex-col items-center justify-between space-y-10 md:flex-row md:space-y-0 md:space-x-10">
                         <p className="text-2xl font-sans text-slate-800 mt-20 hover:scale-105 duration-200 bg-gradient-to-r from-slate-50 to-slate-400 w-60 p-4 rounded-3xl">ACCOMPLISHING ATHLETIC GOALS IS CHALLENGING</p>
                         
@@ -62,11 +62,11 @@ const HomeScreen = () => {
             </div>
 
             {/* New Row Container 3 */}
-            <div className="flex flex-col p-16 m-2 space-y-10 md:flex-row md:space-y-0 md:space-x-20 md:m-4 md:p-12">
+            <div className="flex flex-col p-16 space-y-10 bg-[#d3dee2] md:flex-row md:space-y-0 md:space-x-20 md:p-12">
                 
                 {/* New Text and Image Container */}
                 <div className="w-full text-center mb-20">
-                    <h2 className="text-7xl font-sans mb-4 text-gray-400 hover:scale-105 duration-200">Mental Health Coaching Platform Combined</h2>
+                    <h2 className="text-7xl font-sans mb-4 bg-gradient-to-r from-slate-400 to-slate-800 bg-clip-text text-transparent hover:scale-105 duration-200">Mental Health Coaching Platform Combined</h2>
                     
                     <div className="flex flex-col items-center justify-between space-y-10 md:flex-row md:space-y-20 md:space-x-10">
 
