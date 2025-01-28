@@ -8,6 +8,7 @@ module.exports = {
       fontFamily: {
         'montserrat': ['Montserrat', 'sans-serif'],
         'sans': ['Roboto', 'sans-serif'],
+        'inter': ['Inter', 'sans-serif'],
       },
     },
   },
