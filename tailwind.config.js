@@ -4,7 +4,12 @@ module.exports = {
   darkMode: false,
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'montserrat': ['Montserrat', 'sans-serif'],
+        'sans': ['Roboto', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }
