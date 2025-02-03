@@ -5,7 +5,6 @@ import image4 from '../Frame.svg';
 import {ReactComponent as Image5} from '../Mask group-2.svg';
 import {ReactComponent as Image6} from '../Mask group-3.svg';
 import {ReactComponent as Image7} from '../Mask group-4.svg';
-import iphone from '../image.svg';
 import goals from '../Container.svg';
 import stars from '../stars.svg';
 import iphone2 from '../iphone2.svg';
@@ -17,6 +16,12 @@ import users2 from '../users2.svg';
 import iphone3 from '../iphone3.svg';
 import margin from '../Margin.svg';
 import image from '../brandmark-design 1.svg';
+import iphone from '../image 1.png';
+import icon from '../path4.svg'
+import s2image1 from '../s2image1.svg';
+import s2image2 from '../s2imag2.svg';
+import s2image3 from '../s2image3.svg';
+import path4 from '../path4-2.svg';
 
 
 const HomeScreen = () => {
@@ -32,7 +37,7 @@ const HomeScreen = () => {
                  {/* Text and Image Container */}
                  <div className="w-full text-center ml-20">
                     <h2 className="text-sm font-montserrat mb-4 bg-[#F0F0F0] bg-clip-text text-transparent hover:scale-105 duration-200">#1 must-have app for athletes and performers</h2>
-                    <h2 className="text-7xl font-montserrat mb-4 bg-[#F0F0F0] bg-clip-text text-transparent hover:scale-105 duration-200">Unlock Your Potential</h2>
+                    <h2 className="text-7xl font-montserrat mb-4 bg-[#F0F0F0] bg-clip-text text-transparent hover:scale-105 duration-200">Unlock Your <span className="bg-white mt-10 text-black font-montserrat font-thin">Potential</span></h2>
                     <h2 className="text-sm font-montserrat mb-4 bg-[#F0F0F0] bg-clip-text text-transparent hover:scale-105 duration-200">The all-in-one data-driven performance companion</h2>
 
                     <button className="bg-[#FFFFFF]  mt-20 w-52 h-12 hover:scale-125 duration-200 text-[#9ABBC6] font-montserrat rounded-full">START TODAY   {'>'}</button>
@@ -58,13 +63,9 @@ const HomeScreen = () => {
 
 
                 <div className="w-full text-center">
-                    <h2 className="text-base font-montserrat bg-black bg-clip-text text-transparent hover:scale-105 duration-200">Join the rapidly growing community of athletes who are using Elite Prep to unlock their potential</h2>
+                    <h2 className="text-xl font-montserrat bg-black bg-clip-text text-transparent hover:scale-105 duration-200">Join the rapidly growing community of athletes who are using Elite Prep to unlock their potential</h2>
                 </div>
-                
-
-                <div className="w-full text-center mt-80">
-                    <h2 className="text-4xl font-montserrat bg-black bg-clip-text text-transparent hover:scale-105 duration-200">Your 3 Step Journey to Becoming Elite</h2>
-                </div>
+            
             </div>
 
            
@@ -74,10 +75,16 @@ const HomeScreen = () => {
             {/* New Row Container 3 */}
             <div className="w-full flex flex-col items-center p-16 space-y-10 bg-white">
 
+                <img src={icon} alt="" className="w-20 h-auto hover:scale-105"/>
+
+                <div className="w-full text-center">
+                    <h2 className="text-4xl font-montserrat bg-black bg-clip-text text-transparent hover:scale-105 duration-200">Your 3 Step Journey to Becoming Elite</h2>
+                </div>
+
                 <div className="w-full flex flex-col items-center p-16 space-y-10 md:flex-row md:space-y-0 md:space-x-20 md:p-12">
                     
                     <div className="w-full flex justify-center">
-                        <img src={goals} alt="" className="h-auto hover:scale-105 duration-200"/>
+                        <img src={s2image1} alt="" className="h-auto hover:scale-105 duration-200"/>
                     </div>
 
                     <div className="w-full text-center md:text-left">
@@ -98,7 +105,7 @@ const HomeScreen = () => {
                     </div>
                     
                     <div className="w-full flex justify-center">
-                        <img src={iphone2} alt="" className=" h-auto hover:scale-105 duration-200"/>
+                        <img src={s2image2} alt="" className=" h-auto hover:scale-105 duration-200"/>
                     </div>
                     
                 </div>
@@ -108,7 +115,7 @@ const HomeScreen = () => {
                 <div className="w-full flex flex-col items-center p-16 space-y-10 md:flex-row md:space-y-0 md:space-x-20 md:p-12">
                     
                     <div className="w-full flex justify-center">
-                        <img src={calories} alt="" className="h-auto hover:scale-105 duration-200"/>
+                        <img src={s2image3} alt="" className="h-auto hover:scale-105 duration-200"/>
                     </div>
 
                     <div className="w-full text-center md:text-left">
@@ -131,7 +138,7 @@ const HomeScreen = () => {
                     style={{ background: 'linear-gradient(to bottom left, #000000, #000000, #7B939C)' }}>
 
                 <div>
-                    <img src={foodplan} alt="" className="h-auto hover:scale-105 duration-200"/>
+                    <img src={path4} alt="" className="h-auto hover:scale-105 duration-200"/>
                 </div>
 
                 <div className="w-full text-center">
