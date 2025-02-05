@@ -22,6 +22,11 @@ import s2image1 from '../s2image1.svg';
 import s2image2 from '../s2imag2.svg';
 import s2image3 from '../s2image3.svg';
 import path4 from '../path4-2.svg';
+import epihone from '../epiphone.svg';
+import s4image1 from '../s4image1.svg';
+import image7 from '../image 7.svg';
+import image8 from '../image 8.svg';
+import image9 from '../image 9.svg';
 
 
 const HomeScreen = () => {
@@ -90,7 +95,7 @@ const HomeScreen = () => {
                     <div className="w-full text-center md:text-left">
                             <h2 className="text-7xl font-inter mb-5 bg-[#B7CDD4] bg-clip-text text-transparent hover:scale-105 duration-200">1</h2>
                             <h2 className="text-4xl font-montserrat mt-5 bg-black bg-clip-text text-transparent hover:scale-105 duration-200">Create a Baseline - Set Goals</h2>
-                            <h2 className="text-sm font-montserrat mt-5 bg-gray-600 bg-clip-text text-transparent hover:scale-105 duration-200">To maximize Elite Prep, schedule your event, establish a baseline with the questionnaire, and set clear performance goals.</h2>
+                            <h2 className="text-base font-montserrat mt-5 bg-gray-600 bg-clip-text text-transparent hover:scale-105 duration-200">To maximize Elite Prep, schedule your event, establish a baseline with the questionnaire, and set clear performance goals.</h2>
                     </div>
                     
                 </div>
@@ -101,7 +106,7 @@ const HomeScreen = () => {
                     <div className="w-full text-center md:text-right">
                         <h2 className="text-7xl font-inter mb-5 bg-[#B7CDD4] bg-clip-text text-transparent hover:scale-105 duration-200">2</h2>
                         <h2 className="text-4xl font-montserrat mt-5 bg-black bg-clip-text text-transparent hover:scale-105 duration-200">Prepare</h2>
-                        <h2 className="text-sm font-montserrat mt-5 bg-gray-600 bg-clip-text text-transparent hover:scale-105 duration-200">Track your preparation activities and use the AI chat journal to  reflect, learn, and mentally prepare for your performance.</h2>
+                        <h2 className="text-base font-montserrat mt-5 bg-gray-600 bg-clip-text text-transparent hover:scale-105 duration-200">Track your preparation activities and use the AI chat journal to  reflect, learn, and mentally prepare for your performance.</h2>
                     </div>
                     
                     <div className="w-full flex justify-center">
@@ -121,7 +126,7 @@ const HomeScreen = () => {
                     <div className="w-full text-center md:text-left">
                             <h2 className="text-7xl font-inter mb-5 bg-[#B7CDD4] bg-clip-text text-transparent hover:scale-105 duration-200">3</h2>
                             <h2 className="text-4xl font-montserrat mt-5 bg-black bg-clip-text text-transparent hover:scale-105 duration-200">Compete - Reflect - Adjust</h2>
-                            <h2 className="text-sm font-montserrat mt-5 bg-gray-600 bg-clip-text text-transparent hover:scale-105 duration-200">Reflect on your performance, analyze the insights, adjust your training, and repeat the process for continuous improvement.</h2>
+                            <h2 className="text-base font-montserrat mt-5 bg-gray-600 bg-clip-text text-transparent hover:scale-105 duration-200">Reflect on your performance, analyze the insights, adjust your training, and repeat the process for continuous improvement.</h2>
                     </div>
                     
                 </div>
@@ -154,14 +159,57 @@ const HomeScreen = () => {
 
 
             {/* New Row Container 5 */}
-            <div className="w-full flex flex-col items-center p-16 space-y-10 bg-white">
+            <div className="w-full flex flex-col items-center p-16 space-y-0 bg-white">
+                
+                <div className="w-full flex flex-col justify-items-start ml-32">
+                    <h2 className="text-4xl font-montserrat mb-12 bg-black bg-clip-text text-transparent"> <span className="font-bold">Never</span> Feel <span className="font-bold">Unprepared</span> Again</h2>
+                </div>
+               
 
-                <h2 className="text-base font-montserrat bg-black bg-clip-text text-transparent hover:scale-105 duration-200">Become Elite</h2>
-                <h2 className="text-4xl font-montserrat bg-black bg-clip-text text-transparent hover:scale-105 duration-200">Preparation tracking works. Elite Prep proves it.</h2>
+                <div className="flex flex-row items-center">
 
-                <div className="flex flex-row items-center justify-between space-x-28">
-                    <img src={users} alt="" className="w-auto h-auto hover:scale-105 duration-200"/>
-                    <img src={users2} alt="" className="w-auto h-auto hover:scale-105 duration-200"/>
+                    <div className="flex flex-col items-center">
+                        <div className="w-auto h-auto bg-[#D9D9D9] py-8 px-24 rounded-2xl">
+                            <img src={image7} alt="" className="w-72 h-72 object-contain hover:scale-105 duration-200"/>
+                        </div>
+
+                        <h2 className="text-xl font-montserrat font-bold mt-5">Conquer Your Next Big Event</h2>
+                        <p className="text-sm font-montserrat mt-5 m-10">We offer personalized tools and insights for improved training, 
+                            mental game management, and readiness. With features like activity tracking, AI journaling, and performance analysis, 
+                            Elite Prep helps you achieve peak performance when it matters most.
+                        </p>
+                    </div>
+                    
+
+                    <div className="flex flex-col items-center">
+                        <div className="w-auto h-auto bg-[#D9D9D9] py-10 px-16 rounded-2xl">
+                            <img src={image8} alt="" className="w-72 h-72 object-contain hover:scale-105 duration-200"/>
+                        </div>
+
+                        <h2 className="text-lg font-montserrat font-bold mt-5">Performance Now Measurable</h2>
+                        <p className="text-xs font-montserrat mt-5 m-10">
+                            For too long, "soft skills" like focus, confidence, and resilience have been seen as subjective. 
+                            Elite Prep changes that by measuring these aspects of performance. By combining advanced technology 
+                            with sports psychology, we quantify your mental and emotional state alongside physical training. 
+                            Gain insights into your performance trends and how these factors influence your outcomes. With 
+                            Elite Prep, you can optimize not just your skills, but your overall approach to preparation.
+                        </p>
+
+                    </div>
+
+                    <div className="flex flex-col items-center">
+                        <div className="w-auto h-auto bg-[#D9D9D9] py-8 px-24 rounded-2xl">
+                            <img src={image9} alt="" className="w-72 h-72 object-contain hover:scale-105 duration-200"/>
+                        </div>
+
+                        <h2 className="text-xl font-montserrat font-bold mt-5">From Confusion to Clarity</h2>
+                        <p className="text-sm font-montserrat mt-5 m-10">
+                            Stop second-guessing your training. Elite Prep offers personalized, data-driven insights that 
+                            clarify the factors impacting your performance, from physical training to mental and emotional 
+                            well-being. Discover your unique path to peak performance, gaining the clarity and confidence you
+                            need to excel.
+                        </p>
+                    </div>
                 </div>
             </div>
 
@@ -185,7 +233,7 @@ const HomeScreen = () => {
 
                 {/* Image Div Container */}
                 <div className="w-full flex items-end">
-                    <img src={iphone3} alt="" className="w-auto hover:scale-105 duration-200"/>
+                    <img src={epihone} alt="" className="w-auto hover:scale-105 duration-200"/>
                 </div>
             </div>
 
@@ -196,7 +244,7 @@ const HomeScreen = () => {
                 <div className="w-full flex flex-col items-center p-16 space-y-10 bg-white md:flex-row md:space-y-0 md:space-x-10 md:p-12 md:m-10">
 
                     <div className="flex flex-row items-center space-x-20 m-20">
-                        <img src={margin} alt="" className="w-auto h-auto hover:scale-105 duration-200"/>
+                        <img src={s4image1} alt="" className="w-64 h-auto hover:scale-105 duration-200"/>
                     
 
                         <div className="w-full flex flex-col text-left">
